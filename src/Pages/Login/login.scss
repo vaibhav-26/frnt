@@ -1,0 +1,43 @@
+.login_layout {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form {
+  display: "flex";
+  justify-content: "center";
+  flex-direction: "column";
+}
+
+.login_box {
+  padding: 2em;
+  position: relative;
+}
+
+.logo_box {
+  position: absolute;
+}
+
+.login_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login_footer {
+  float: right;
+}
+
+.submit_button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bg {
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  height: 100vh;
+}

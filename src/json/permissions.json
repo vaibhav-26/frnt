@@ -1,0 +1,87 @@
+[
+        {
+          "key": 1,
+          "name": "Skills",
+          "children": [
+            {
+              "key": 2,
+              "name": "display"
+            },
+            {
+              "key": 3,
+              "name": "AllSkills",
+              "children": [
+                { "key": 4, "name": "display" },
+                { "key": 5, "name": "add" },
+                { "key": 6, "name": "edit" },
+                { "key": 7, "name": "delete" }
+              ]
+            },
+            {
+              "key": 8,
+              "name": "MySkills",
+              "children": [
+                { "key": 9, "name": "import" },
+                { "key": 10, "name": "display" },
+                {
+                  "key": 11,
+                  "name": "SkillList",
+                  "children": [{ "key": 12, "name": "display" }]
+                },
+                {
+                  "key": 13,
+                  "name": "Certification",
+                  "children": [
+                    { "key": 14, "name": "display" },
+                    { "key": 15, "name": "add" },
+                    { "key": 16, "name": "edit" },
+                    { "key": 17, "name": "delete" }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": 18,
+              "name": "TeamSkills",
+              "children": [
+                { "key": 19, "name": "display" },
+                { "key": 20, "name": "add" },
+                { "key": 21, "name": "edit" },
+                { "key": 22, "name": "delete" },
+                { "key": 23, "name": "AssignSkill" },
+                { "key": 24, "name": "AssignAssessment" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": 25,
+          "name": "Team",
+          "children": [
+            {
+              "key": 26,
+              "name": "display"
+            }
+          ]
+        },
+        {
+          "key": 27,
+          "name": "Report",
+          "children": [
+            {
+              "key": 28,
+              "name": "display"
+            }
+          ]
+        },
+        {
+          "key": 29,
+          "name": "User",
+          "children": [
+            { "key": 30, "name": "display" },
+            { "key": 31, "name": "add" },
+            { "key": 32, "name": "edit" },
+            { "key": 33, "name": "delete" }
+          ]
+        }
+      ]

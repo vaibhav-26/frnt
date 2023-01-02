@@ -1,0 +1,102 @@
+$mainColor: #1677ff;
+$mainSubColor: #4471af;
+$borderColor: #ced4da;
+$textColor:#72849a;
+
+.button {
+    background-color: $mainColor;
+    color: white;
+    border: 2px solid $mainColor;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 45px;
+    min-width: 125px;
+  
+    &:hover {
+      background-color: white;
+      color: $mainColor;
+      border: 2px solid $mainColor;
+    }
+  
+    &:focus {
+      background-color: white;
+      color: $mainColor;
+      border: 2px solid $mainColor;
+    }
+  }
+
+  .modal-submit-button {
+    background-color: $mainColor;
+    color: white;
+    border: 2px solid $mainColor;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+    min-width: 105px;
+    margin: 0px 5px;
+  
+    &:hover {
+      background-color: white;
+      color: $mainColor;
+      border: 2px solid $mainColor;
+    }
+  
+    &:focus {
+      background-color: white;
+      color: $mainColor;
+      border: 2px solid $mainColor;
+    }
+  }
+
+  .modal-cancel-button {
+    background-color: white !important;
+    color: $mainColor !important;
+    border: 2px solid $mainColor !important;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 35px;
+    min-width: 105px;
+    margin: 0px 5px;
+  
+    &:hover {
+      background-color: $mainColor !important;
+      color: white !important;
+      border: 2px solid white;
+    }
+  
+    &:focus {
+      background-color: $mainColor;
+      color: white;
+      border: 2px solid white;
+    }
+  }
+
+  .form {
+    display: "flex";
+    justify-content: "center";
+    flex-direction: "column";
+  }
+
+  .text {
+    color: $mainColor;
+    font-weight: 900;
+  }
+
+  .text-color{
+    color: $textColor;
+  }
+  
+  .inputfield {
+    border-color: $borderColor !important;
+    border-radius: 5px !important;
+  
+    &:focus {
+      border-color: $mainColor !important;
+      --box-shadow-color: $mainColor !important;
+      box-shadow: 1px 2px 5px var(--box-shadow-color) !important;
+    }
+  
+    &:hover {
+      border-color: $mainColor !important;
+    }
+  }
