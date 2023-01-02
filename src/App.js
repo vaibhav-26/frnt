@@ -23,8 +23,6 @@ import EditSkill from "./Pages/Skills/EditSkill";
 import AddUser from "./Pages/User/AddUser";
 import EditUser from "./Pages/User/EditUser";
 import Layouts from "./Layouts";
-import Root from "./components/Root";
-// import Layout from "./components/Layout";
 
 const router = createBrowserRouter([
   {
